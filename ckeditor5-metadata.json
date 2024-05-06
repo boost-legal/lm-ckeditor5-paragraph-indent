@@ -1,0 +1,20 @@
+{
+	"plugins": [
+		{
+			"name": "Indent Paragraph",
+			"className": "IndentParagraph",
+			"description": "The indent paragraph feature controls the indentation of a paragraph with the expected keybindings of common document editors.",
+			"path": "src/indentparagraph.js",
+			"requires": [
+				"Indent"
+			],
+			"htmlOutput": [
+				{
+					"elements": "$paragraph",
+					"styles": ["text-indent"],
+					"_comment": "By default, the plugin uses inline styles for indentation."
+				}
+			]
+		}
+	]
+}
