@@ -1,6 +1,6 @@
 {
   "name": "@lawmatics/ckeditor5-paragraph-indent",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Paragraph indent plugin for CKEditor 5.",
   "keywords": [
     "ckeditor",
@@ -13,6 +13,7 @@
   ],
   "type": "module",
   "main": "src/index.js",
+  "homepage": "https://github.com/boost-legal/lm-ckeditor5-paragraph-indent",
   "dependencies": {
     "ckeditor5": "41.3.1"
   },
