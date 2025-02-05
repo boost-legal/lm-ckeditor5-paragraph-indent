@@ -37,7 +37,7 @@ export default class IndentParagraph extends Plugin {
     if (position.isAtStart && paragraph) {
       const viewElement = editor.editing.mapper.toViewElement(paragraph);
       const currentIndent = parseInt(viewElement.getStyle('text-indent') || paragraph.getAttribute('textIndent') || '0');
-      const change = action === 'increase' ? ParagraphIndentPlugin.defaultIndentSize : -ParagraphIndentPlugin.defaultIndentSize;
+      const change = action === 'increase' ? IndentParagraph.defaultIndentSize : -IndentParagraph.defaultIndentSize;
       const newIndentValue = Math.max(currentIndent + change, 0);
 
       if (newIndentValue !== currentIndent) {
